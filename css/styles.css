@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  display: flex;
+  margin-top: 30px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  min-width: 50px;
+  min-height: 30px;
+  margin-left: 0px;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.one {
+  color: blue;
+  background-color: wheat;
+}
+
+.one:hover,
+.one:focus {
+  color: wheat;
+  background-color: blue;
+}
+
+.two {
+  color: green;
+  background-color: tan;
+}
+
+.two:hover,
+.two:focus {
+  color: tan;
+  background-color: green;
+}
+
+.image {
+  margin-left: 5px;
+}
+
+.first {
+  fill: blue;
+}
+
+.second {
+  fill: green;
+}
+
+.one:hover .first,
+.one:focus .first {
+  fill: wheat;
+}
+
+.two:hover .second,
+.two:focus .second {
+  fill: tan;
+}
